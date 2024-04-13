@@ -1,4 +1,60 @@
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+} */
+
+/* @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,148 +65,29 @@ body {
 ::before,
 ::after {
   border-width: 0;
-}
-
-
-
-
-/* .container .main_block{
-  max-width: 600px;
-  height: auto;
-  background: url(./Components/foto/backround.svg);
-  background-size: cover;
-  margin: auto;
-}
-
-.container .main_block .logo_block{
-  width: 100%;
-  height: 153px;
-}
-
-.container .main_block .logo_block{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 20px;
-}
-
-.container .main_block .logo_block img{
-  width: 200px;
-  height: 150px;
-}
-
-.container .main_block .menu_block .menu_div{
-  width: 80%;
-  background: url(../src/Components/foto/Vector.svg);
-  height: 70px;
-  background-size: cover;
-  margin: auto;
-  text-align: center;
-  display: flex;
-  justify-content: space-around;
-  margin-top: 40px;
-}
-
-.container .main_block .menu_block .menu_div .divfotobc img:nth-child(2){
-  margin-left: -80px;
-}
-.container .main_block .menu_block .menu_div .divfotobc img:nth-child(1){
-  width: 150px;
-  height: 90px;
-}
-
-.container .main_block .menu_block .text h1{
-  width: 86px;
-  height: 40px;
-  font-size: 30px;
-  font-weight: 400;
-  margin: auto;
-  margin-top: 20px;
-  color: #233049;
-}
-
-.container .main_block .menu_block .menu_div p{
-  text-align: center;
-  width: 344px;
-  height: 21px;
-  font-weight: 40px;
-  color: white;
-  margin-left: -150px;
-  margin-top: 20px;
-  font-size: 30px;
-}
-
-.container .main_block .df{
-  margin: auto;
-  text-align: center;
-  display: flex;
-  justify-content: space-around;
-}
-
-.dubl{
-  width: 65%;
-  margin: auto;
-  margin-top: 40px;
-}
-
-.dubl .desert{
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-}
-.dubl .desert img{
-width: 85px;
-height: 75px;
-
-}
-
-.dubl .desert button{
-  width: 100%;
-  height: 50px;
-  color: #885133;
-  border: 1px solid #885133;
-  background-color: #F0E6D7;
-  margin-top: 15px;
-  margin-left: -20px;
-  border-radius: 20px;
-  font-size: 25px;
-}
-
-.dubl .desert img{
-  z-index: 1;
-}
-
-.footer{
-  width: 100%;
-  height: 150px;
-  background-color: #233049;
-}
-
-.footer .icon button{
-  width: 50px;
-  height: 50px;
-  border: none;
-  background-color: #233049
-}
-.footer .icon button img {
-  width: 60px;
-  height: 50px;
-}
-
-.footer .icon{
-  width: 70%;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  padding-top: 10px;
-}
-
-.footer h1{
-  font-family: sans-serif;
-  text-align: center;
-  color: white;
-  font-weight: 100;
-  font-size: 25px;
-  padding-top: 20px;
 } */
+.bakcroundimg{
+  background-image: url(./Components/foto/Fon.svg);
+  /* background-repeat: no-r; */
+  height: auto ;
+}
+.nav{
+  background-color: #D9D9D9;
+  /* border-radius: 30px; */
+  margin-left: -10px;
+  align-items: center;
+  font-size: 8px;
+  justify-content: space-between;
+  display: flex;
+}
+.korzinka{
+  background-image: url(./Components/img/koriznka.svg);
+}
+.bell{
+  background-image: url(./Components/img/bell_svgrepo.com.svg);
+  margin-left: 17px;
+}
+
+.bakcroundimg{
+  padding-top: 30px;
+}

@@ -1,0 +1,52 @@
+.container{
+    width: 100%;
+}
+
+.container .cards{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.container .cards .card{
+    width: 170px;
+    height: 230px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: url(./img/Group\ 28.svg);
+    text-align: center;
+}
+
+.container .cards .card img{
+    width: 366px;
+    height: 108px;
+    margin-left: -95px;
+    margin-top: 35px;
+}
+
+.container .cards .card .button {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-top: -25px;
+}
+
+.container .cards .card .button .back{
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.container .cards .card .button button{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+}
+
+.container .cards .card p{
+    font-size: 17px;
+    color: white;
+}

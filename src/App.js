@@ -1,17 +1,21 @@
-import { Route, Routes } from 'react-router-dom';
-import './App.css';
-import Home from './Components/Home';
 
+import './App.css';
+// import Counter from './Components/Counter';
+import{Route,Routes} from 'react-router-dom'
+import Home from './Components/Home';
+import { Taomlar } from './Components/Taomlar';
 function App() {
   return (
-    <div className="App">
-      {/* <Routes>
-        <Route>
-
-        </Route> */}
+    <>
+     
+      <Taomlar/>
       <Home/>
-      {/* </Routes> */}
-    </div>
+      {/* <Home2 /> */}
+      {/* <Counter/> */}
+      
+
+      </>
+    
   );
 }
 
